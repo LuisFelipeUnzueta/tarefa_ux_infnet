@@ -1,0 +1,26 @@
+{
+    "dart.flutterSdkPath": "C:\\DevPrograms\\Flutter_SDK\\flutter_3.3.10",
+    "terminal.integrated.env.windows": {
+        "PATH": "${config:dart.flutterSdkPath}\\bin\\;${env:PATH}"
+    },
+    "terminal.integrated.env.osx": {
+        "PATH": "${config:dart.flutterSdkPath}/bin:${env:PATH}"
+    },
+    "terminal.integrated.env.linux": {
+        "PATH": "${config:dart.flutterSdkPath}/bin:${env:PATH}"
+    },
+
+    "[dart]": {
+        "editor.rulers": [
+            80,
+            120,
+            140
+        ]
+    },
+    "dart.lineLength": 140,
+
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+
+}
